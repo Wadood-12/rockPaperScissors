@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+}
+
+#container {
+  border: 2px solid #fff;
+  width: fit-content;
+  padding: 20px 20px;
+  border-radius: 20px;
+  /*TODO box-shadow: #fff; */
+}
+
+#title {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+  margin-bottom: 45px;
+}
+
+.game-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /*! IMPORTANT FOR BUTTONS */
+}
+
+.rps-img {
+  width: 150px;
+  margin: 0 8px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+}
+
+.move-img {
+  width: 80px;
+  text-align: center;
+}
+
+#game-box {
+  text-align: center;
+}
+
+#result-box {
+  text-align: center;
+}
+
+#result {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#moves {
+  font-size: 25px;
+}
+
+#score {
+  font-size: 28px;
+  margin-top: 65px;
+  font-weight: bold;
+}
+
+#reset-btn {
+  padding: 18px 30px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  /*! IMPORTANT FOR BUTTONS */
+  margin-bottom: 10px;
+}
