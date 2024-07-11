@@ -4,6 +4,12 @@ body {
   font-family: sans-serif;
   background-color: rgb(35, 35, 35);
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
+  place-items: center; */
+  height: 100vh;
 }
 
 #container {
