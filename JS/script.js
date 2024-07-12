@@ -142,7 +142,7 @@ function resetGame (){
     ties: 0
   }
 
-  // Update score and localStorage after reset
+  // Update score after reset
   updateScore();
   updateScoreInLocalStorage(); // Update localStorage after resetting
 }

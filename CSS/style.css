@@ -15,9 +15,9 @@ body {
 #container {
   border: 2px solid #fff;
   width: fit-content;
-  padding: 20px 20px;
+  padding: 30px 30px;
   border-radius: 20px;
-  /*TODO box-shadow: #fff; */
+  box-shadow: 1px 0px 10px #fff, -1px 0px 10px #fff;
 }
 
 #title {
@@ -32,6 +32,7 @@ body {
   border: none;
   cursor: pointer;
   /*! IMPORTANT FOR BUTTONS */
+  padding: 10px 10px;
 }
 
 .rps-img {
@@ -39,8 +40,18 @@ body {
   margin: 0 8px;
   border: 2px solid #fff;
   border-radius: 20px;
-  padding: 16px;
+  padding: 16px 16px;
   text-align: center;
+  box-shadow: 1px 0px 10px #fff, -1px 0px 10px #fff;
+  transition: 0.2s;
+}
+
+.rps-img:hover {
+  background-color: rgb(79, 79, 79);
+}
+
+.rps-img:active {
+  background-color: rgb(60, 60, 60);
 }
 
 .move-img {
@@ -82,4 +93,14 @@ body {
   cursor: pointer;
   /*! IMPORTANT FOR BUTTONS */
   margin-bottom: 10px;
+  box-shadow: 1px 0px 10px #fff, -1px 0px 10px #fff;
+  transition: 0.2s;
+}
+
+#reset-btn:hover {
+  background-color: rgb(79, 79, 79);
+}
+
+#reset-btn:active {
+  background-color: rgb(60, 60, 60);
 }
