@@ -120,7 +120,7 @@ function updateResult(resultText){
 // Function to update and display player and computer moves
 function updateMoves(playerMove, compMove){
   //TODO: change this so it uses images, copy paste the HTML code for it to work
-  moves.innerHTML = `You <img src="/Images/${playerMove.toLowerCase()}-emoji.png" class="move-img"> | <img src="/Images/${compMove.toLowerCase()}-emoji.png"
+  moves.innerHTML = `You <img src="Images/${playerMove.toLowerCase()}-emoji.png" class="move-img"> | <img src="Images/${compMove.toLowerCase()}-emoji.png"
           class="move-img"> Comp`;
 }
 
